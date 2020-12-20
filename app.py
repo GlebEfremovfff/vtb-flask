@@ -61,5 +61,5 @@ def create_article():
                 "achievements": result[i][6]})
         return str(rlist)
 
-
-app.run(debug=False)
+if __name__ == "__main__":
+    app.run(debug=False)
